@@ -1,0 +1,35 @@
+html,
+body {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+img {
+	display: block;
+	/*картинки по умолчанию строчный элем, мы делаем блочный*/
+	max-width: 100%;
+	/*если экран будет уже чем само изображение оно будет сжиматься под экран*/
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	/*наследует значение родителя*/
+}
+
+
+
+
+@font-face {
+	font-family: 'Lato-regular';
+	src: url(../fonts/Lato-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
